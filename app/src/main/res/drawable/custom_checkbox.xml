@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Колір, коли чекбокс вибраний -->
+            <size android:width="16dp" android:height="16dp"/>
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Колір, коли чекбокс не вибраний -->
+            <stroke android:width="2dp" android:color="#FFFFFF"/> <!-- Колір рамки -->
+            <size android:width="16dp" android:height="16dp"/>
+        </shape>
+    </item>
+</selector>
